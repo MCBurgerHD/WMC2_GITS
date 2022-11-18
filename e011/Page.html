@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="pagestyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <title>Burger Restaurant</title>
+</head>
+<body>
+<div class="navigation"><nav>
+    <ul>
+        <li><a href="#">Startseite</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#oeffnungszeiten">Öffnungszeiten</a></li>
+        <li><a href="#ueberuns">Über uns</a></li>
+        <li><a href="#bestellen">Bestellen</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+</nav>
+</div>
+<h1 class="headline">saftige Burger</h1>
+<picture>
+    <source srcset="burger-g42871d6d8_1920.jpg"
+            media="(min-width: 1450px)">
+    <img src="burgerphone.jpg"/>
+</picture>
+<div id="menu">
+<h1 class="menutext"><u>Menu</u></h1>
+<h1><b>Cheeseburger</b> <span>€14,99,-</span></h1>
+<h1><b>Kebab Burger</b> <span>€14,99,-</span></h1>
+<h1><b>Hamburger</b> <span>€15,99,-</span></h1>
+<h1><b>Chickenburger</b> <span>€15,99,-</span></h1>
+<h1><b>Beefburger</b> <span>€16,99,-</span></h1>
+<h1><b>Pommes</b> <span>€6,99,-</span></h1>
+<h1><b>Zu jedem Burger ein Getränkt gratis dazu!</b><h1>
+</div>
+<br>
+<div id="oeffnungszeiten">
+    <h1><u>Öffnungszeiten</u></h1>
+    <h2>Mo bis Fr: 9 bis 17 Uhr</h2>
+    <h2>Sa und So: 11 bis 14 Uhr</h2>
+</div>
+<br>
+<div id="ueberuns">
+    <h1><u>Über uns</u></h1>
+    <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h2>
+</div>
+<picture>
+    <source srcset="brick-wall-g9a090270d_1920.jpg"
+            media="(min-width: 1450px)">
+    <img src="brick-wall-g7d2ed956b_1280.jpg"/>
+</picture>
+
+<div id="bestellen">
+<h1><u>Bestellen</u></h1>
+<form>
+    <label for="strasse">Straße</label><br>
+    <input type="text" id="strasse" name="strasse" value=""><br>
+    <label for="hausnummer">Hausnummer</label><br>
+    <input type="number" id="hausnummer" name="hausnummer" value=""><br>
+    <label for="ort">Ort</label><br>
+    <input type="text" id="ort" name="ort"><br>
+    <label for="plz">Postleitzahl</label><br>
+    <input type="number" id="plz" name="plz" value=""><br>
+
+    <label for="email">E-Mail</label><br>
+    <input type="email" id="email" name="email"><br>
+    <br>
+    <br>
+    <label for="menge"> Cheeseburger</label><br><input type="number" id="menge" name="menge" value="0"><br>
+    <label for="menge2"> Kebab Burger</label><br><input type="number" id="menge2" name="menge" value="0"><br>
+    <label for="menge3"> Hamburger</label><br><input type="number" id="menge3" name="menge" value="0"><br>
+    <label for="menge4"> Chickenburger</label><br><input type="number" id="menge4" name="menge" value="0"><br>
+    <label for="menge5"> Beefburger</label><br><input type="number" id="menge5" name="menge" value="0"><br>
+    <label for="menge6"> Pommes</label><br><input type="number" id="menge6" name="menge" value="0"><br>
+    <label for="wuensche">Wünsche/Hinweise</label><br>
+    <textarea id="wuensche" name="wuensche" value=""></textarea><br>
+    <br>
+    <label for="lieferdatum">Lieferdatum</label><br>
+    <input type="datetime-local" id="lieferdatum" name="lieferdatum"><br>
+
+    <br><input type="submit" value="Submit">
+</div>
+<div id="kontakt">
+    <h3>Telefon: +43 294802840284</h3>
+    <h3>Fax: +43 83929058937</h3>
+    <h3>E-Mail: burger@restaurant.at</h3>
+    <h3>Adresse: Burgergasse 2, 1100 Wien</h3>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,61 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:   #BCD4E6;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a {
+    font-family: NavFont;
+    font-size: 20px;
+    text-decoration:none;
+}
+li a:hover {
+    background-color: #ACE5EE;
+}
+#registaration {
+    position:relative;
+    bottom:200px;
+    left:1300px;
+}
+#Login {
+    padding:4px;
+}
+#Signup {
+    padding:4px;
+}
+body {
+    overflow-x:hidden;
+}
+.dropdown {
+    display: none;
+    top: -9999em;
+    position: absolute;
+    width: 180px;
+}
+.parent:hover .dropdown {
+    display: block;
+    top: auto;
+}
+#services li {
+    display: block;
+    padding: 10px 15px;
+}
+
+@media only screen and (min-width: 768px)
+{
+.b {
+
+}
+
+}

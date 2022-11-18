@@ -1,0 +1,172 @@
+.headline {
+ position: absolute;
+    font-size: 600%;
+ background-color: #efefef;
+}
+
+.menutext {
+    font-size: 300%;
+    font-family: "Tempus Sans ITC";
+}
+
+#menu {
+    font-family: "Tempus Sans ITC";
+}
+
+.navigation {
+    top: 0;
+    position: sticky;
+    width: auto;
+    font-size: 400%;
+    background-color: #efefef;
+}
+
+body {
+    text-align:center;
+    background-color: #efefef;
+    font-family: "Times New Roman";
+}
+
+#menu, #ueberuns, #bestellen, #oeffnungszeiten {
+    background-color: #efefef;
+}
+
+.headline {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+a {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: NavFont;
+    font-size: 20px;
+    text-decoration:none;
+    background-color: #f2fff5;
+}
+
+li a:hover {
+    background-color: #efefef;
+}
+
+body {
+    overflow-x:hidden;
+}
+
+.parent:hover {
+    display: block;
+    top: auto;
+}
+
+#kontakt {
+    color: white;
+    background-color: #cbcbcb;
+}
+
+
+@media only screen and (min-width: 1600px) {
+    .headline {
+        position: absolute;
+        font-size: 600%;
+        background-color: #efefef;
+    }
+
+    .menutext {
+        font-size: 300%;
+        font-family: "Tempus Sans ITC";
+    }
+
+    #menu {
+        font-family: "Tempus Sans ITC";
+    }
+
+    .navigation {
+        top: 0;
+        position: sticky;
+        width: auto;
+        font-size: 400%;
+        background-color: #efefef;
+    }
+
+    body {
+        text-align:center;
+        background-color: #efefef;
+        font-family: "Times New Roman";
+    }
+
+    #menu, #ueberuns, #bestellen, #oeffnungszeiten {
+        background-color: #efefef;
+    }
+
+    .headline {
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+    }
+
+    a {
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 20px;
+        font-family: NavFont;
+        font-size: 20px;
+        text-decoration:none;
+        background-color: #f2fff5;
+    }
+
+    li a:hover {
+        background-color: #efefef;
+    }
+
+    body {
+        overflow-x:hidden;
+    }
+
+    .parent:hover {
+        display: block;
+        top: auto;
+    }
+
+    #kontakt {
+        color: white;
+        background-color: #cbcbcb;
+    }
+}
