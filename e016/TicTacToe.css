@@ -1,0 +1,24 @@
+#spielfeld {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+
+    background-color: black;
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+}
+#spielfeld > div {
+    background-color: white;
+    border: 1px solid white;
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+.rot{
+    background-color: red !important;
+
+}
+.blau{
+    background-color: blue !important;
+}
