@@ -1,0 +1,11 @@
+.persoenlichedaten, .programmiersprachen, .BS, .farbe {
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width: 25%;
+    background-color: lightblue;
+}
+
+h2 {
+    font-size: 100%;
+}

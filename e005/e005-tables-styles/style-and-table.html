@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Style Me!</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            counter-reset: section;
+        }
+        h3::before {
+            counter-increment: section;
+            content: counter(section) ". ";
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+            width: min-content;
+        }
+        .flex-container > div {
+            /*background-color: #d1e1ff;*/
+            padding:20px;
+            width:min-content;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Styling Exercise</h1>
+
+    <section id="content">
+        <h2>List of Sections</h2>
+        <ol>
+            <li><a href="#taskDescription">Task Description</a></li>
+            <li><a href="#basicStyling">Basic Styling</a></li>
+            <li><a href="#combinators">Styling with Combinators</a></li>
+            <li><a href="#tables">Styling Tables</a></li>
+        </ol>
+    </section>
+
+    <section id="taskDescription">
+        <h3>Task Description</h3>
+        <p>Your task is to style this page with CSS. Follow these instructions:</p>
+        <ul>
+            <li>You must not change this HTML document.</li>
+            <li>Create a separate style sheet called "styles.css".</li>
+            <li>Place it next to this HTML document to make sure it is applied to the page.</li>
+            <li>Browse through this HTML site and scan for instructions (pattern is S##: description) in the elements.</li>
+            <li>Fill the CSS with meaningful style declarations in order to satisfy all styling requests!</li>
+        </ul>
+        <h4>Further Reading</h4>
+        <ul>
+            <li><a href="https://www.w3schools.com/cssref/css_colors.asp">CSS Colors</a></li>
+            <li><a href="https://www.w3schools.com/cssref/css_colors_legal.asp">CSS Color Values</a>.</li>
+            <li><a href="https://www.w3schools.com/css/css_text.asp">CSS Text</a>.</li>
+            <li><a href="https://www.w3schools.com/css/css_font.asp">CSS Fonts</a>.</li>
+            <li><a href="https://www.w3schools.com/css/css_background.asp">CSS Backgrounds</a>.</li>
+            <li><a href="https://www.w3schools.com/css/css_boxmodel.asp">CSS Box Model</a>.</li>
+            <li><a href="https://www.w3schools.com/css/css_border.asp">CSS Borders</a>.</li>
+            <li><a href="https://www.w3schools.com/css/css_margin.asp">CSS Margins</a>.</li>
+            <li><a href="https://www.w3schools.com/css/css_padding.asp">CSS Padding</a>.</li>
+            <li><a href="https://www.w3schools.com/css/css_dimension.asp">CSS Height/Width</a>.</li>
+            <li><a href="https://www.w3schools.com/css/css_table.asp">CSS Tables</a>.</li>
+            <li><a href="https://www.w3schools.com/css/css_combinators.asp">CSS Combinators</a>.</li>
+            <li><a href="https://www.w3schools.com/css/css_examples.asp">CSS Examples</a>.</li>
+            
+    </ul>
+    </section>
+
+    <section id="basicStyling">
+        <h3>Basic Styling</h3>
+        <p>In this section you'll find a lot HTML elements that need some styling. Start with the following tasks and browse the following elements for further instructions.</p>
+            <ul>
+                <li>S01: Choose the basic foreground color for the whole page #ddmmyy where your date of birth is dd.mm.20yy.</li>
+                <li>S02: The text on the page should be presented in 'Franklin Gothic' font. As a fallback, the browser should use Arial or any other sans-serif font.</li>
+                <li>S03: Set the background of the section <em>Basic Styling</em> section to the complementary color of #ddmmyy.  <a href="https://pinetools.com/invert-color">inverter</a></li>
+                <li class="underlined">S04: Underline this list item.</li>
+                <li class="uppercase">S05: Make all characters of this list item uppercase.</li>
+                <li class="strikethrough">S06: Strike through this text with a red line.</li>
+                <li class="uppercase underlined">Nothing to do here.</li>
+                <li class="uppercase strikethrough">Nothing to do here.</li>
+            </ul>
+            <div id="bluebackground">
+                S07: Make this div container always covering 80% of the width of the document window.<br>
+                S08: Make sure that there's always 20+mm space to the left window border where your date of birth is dd.mm.20yy.<br>
+                S09: Make sure that there's always dd space to the border of the div itself where your date of birth is dd.mm.20yy.<br>
+                S10: Cover the background of this div with the repeating background image <i>blue.jpg.</i><br><br>
+                <div class="specialborder">S11: Create a solid green border around me.</div>
+                <p class="specialborder">S12: Create a solid magenta border around me.</p>
+            </div>
+    </section>
+
+    <section id="tables">
+        <h3>Tables</h3>
+        <p>Create the following table in a way that it looks very similar to the table on this
+            <a href="table-example.png">
+                <img src="table-example.png" alt="table pattern" style="width: 50px;">
+            </a>
+            example.
+        </p>
+        <ul>
+            <li>S11: Make sure that the caption is centered.</li>
+            <li>S12: Make sure that odd and even lines have different colors.</li>
+            <li>S13: Highlight the current day.</li>
+            <li>S14: Highlight the cell where the mouse cursor is positioned interactively with a different color.</li>
+            <li>S15: create a footer</li>
+            <li>Bonus: for S14, use different colors for even and odd</li>
+            <li>Bonus: for S14, do not highlight the footer when mouse is moved over</li>
+        </ul>
+        <div>
+            <table>
+               <tr><td class = "m">Month</td></tr>
+                <tr  class="Tage"><td>Mo</td><td>Di</td><td>Mi</td><td>Do</td><td>Fr</td><td>Sa</td><td>So</td></tr>
+                <tr class = "zeile1"><td>01</td><td>02</td><td class="tag">03</td><td>04</td><td>05</td><td>06</td><td>07</td></tr>
+                <tr><td>08</td><td>09</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+                <tr class = "zeile3"><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+                <tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
+                <tr class = "zeile5"><td>29</td><td>30</td><td>01</td><td>02</td><td>03</td><td>04</td><td>05</td></tr>
+            </table>
+        </div>
+    </section>
+
+</body>
+</html>

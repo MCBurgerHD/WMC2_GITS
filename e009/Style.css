@@ -1,0 +1,67 @@
+*{box-sizing: border-box;}
+
+div {
+    display: inline-block;
+    width: 50%;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+
+.header{
+    background-color: #6cdaff;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+   font-family: Calibri;
+    width: 100%;
+    margin: 0px;
+
+}
+
+#katze {
+    width: 200px;
+    heigth: 150px;
+    float: left;
+    margin-right: 5px;
+    clear: left;
+}
+
+.text1 {
+    width: 30%;
+    float: left;
+    position: relative;
+    bottom: 11.5%;
+    padding-left: 12px;
+    clear: left;
+}
+
+.text2 {
+    width: 30%;
+    position: relative;
+    bottom: 12%;
+    border-left: 2px solid #6cdaff;
+    padding-left: 12px;
+    float: left;
+}
+
+.text3 {
+    width: 30%;
+    position: relative;
+    bottom: 12%;
+    border-left: 2px solid #6cdaff;
+    padding-left: 12px;
+}
+
+ul{
+    background-color: #6cdaff;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-family: Calibri;
+    width: 100%;
+    margin: 0px;
+}
+
+

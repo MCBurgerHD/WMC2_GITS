@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Blog</title>
+    <style>
+        body {
+            height: 1500px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .navbar {
+            margin: 0;
+            width: 600px;        
+            padding: 2px 0 0 5px;
+        }
+        .navbar li {
+            display: inline-block;
+            padding: 5px;            
+        }
+
+    </style>
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="css/blog.css">
+  </head>
+  <body>
+    <div class="explanation">
+      Create a couple of blog entries, we also have a navbar. You can change html and css this time.
+      <ul>
+        <li>When we scroll the navbar should be on top of the page, and then the current header of the blog.</li>
+        <li>The navbvar style is not complete but you don't know yet about the inline-block, so it should help you</li>
+        <li>keep in mind aboslut position is taken from the nearets parent which has relative</li>        
+      </ul>
+
+      it could look like this
+      <img src="images/blog-entry.png">
+      <p>and after scrolling</p>
+      <img src="images/blog-entry-scrolled.png">
+      <p>your turn - a litte bit of code has been provided :)</p>
+      <hr>
+      
+    </div>    
+  
+    <ul class="navbar" id="navbar">
+        <li><a href="#entry1">Blogeintrag 1</a></li><!-- example of how a blogentry could look like-->
+    </ul>
+
+
+    <div class="blogentry" id="entry1" > <!-- example of how a blogentry could look like-->
+        <div class="blogentry-title">
+            oh noes a cat
+            </div>
+        <div class="blogentry-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+            consequat. Duis aute irure dolor in reprehenderit in voluptate 
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+             occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+         
+            <div id="cat-text">Cat 1 is cute</div> <!-- this way we can even write text over the image, position!-->
+        </div>
+    </div>
+  <div class="">
+
+  </div>
+  </body>
+</html>

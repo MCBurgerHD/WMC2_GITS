@@ -1,0 +1,65 @@
+.explanation { /* just for the explanation */
+    max-width: 800px; /* this way you can limit the size of an element */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    color: lightblue;
+    
+}
+h1{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.cat-img{
+    border: solid;
+    border-color: grey;
+    border-width: 1.5px;
+    height: 150px;
+    width: 250px;
+    border-radius: 10%;
+    filter: grayscale(100%);
+}
+
+img.cat-img:hover{
+    filter: grayscale(0%);
+    transform: rotate(0deg);
+    z-index: 99;
+}
+
+.img1{
+    z-index: 1;
+    position: absolute;
+    top: 120%;
+    left: 7%;
+}
+.img2{
+    z-index: 2;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 110%;
+    left: 3%;
+}
+.img3{
+    z-index: 3;
+    transform: rotate(24deg);
+    position: absolute;
+    top: 130%;
+    left: 5%;
+}
+.img4{
+    z-index: 4;
+    transform: rotate(30deg);
+    position: absolute;
+    top: 110%;
+    left: 15%;
+}
+.img5{
+    z-index: 5;
+    transform: rotate(-40deg);
+    position: absolute;
+    top: 120%;
+    left: 20%;
+}

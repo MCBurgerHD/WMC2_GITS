@@ -1,0 +1,21 @@
+h1{
+    color:gold;
+}
+
+img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 500px;
+    height: 270px;
+}
+
+a{
+    color: darkgreen;
+}
+
+li{
+    font-size: medium;
+    color: deepskyblue;
+}

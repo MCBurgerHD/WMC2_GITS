@@ -1,0 +1,18 @@
+h1{
+    color:lightseagreen;
+    font-size: 40px;
+}
+
+p{
+    color: #494949;
+    font-size: 20px;
+}
+
+a{
+    color: green;
+}
+p{
+    border-style: solid;
+    border-collapse: collapse;
+    border-radius: 3px;
+}

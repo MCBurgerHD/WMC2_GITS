@@ -1,0 +1,60 @@
+*{
+    color:#300506;
+    font-family:"Franklin Gothic", Arial;
+}
+
+#basicStyling{
+    background-color:#9ab3f5;
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.strikethrough{
+    text-decoration: line-through red;
+}
+
+#bluebackground{
+    padding-left: 20mm;
+    background-image: url("blue.jpg");
+    max-width: 80%;
+    height: 194px;
+    background-repeat: repeat;
+}
+
+div.specialborder{
+    border-style: solid;
+    border-color: green;
+}
+p.specialborder{
+    border-style: solid;
+    border-color: magenta;
+}
+td.m{
+    background-color: grey;
+}
+
+tr.Tage{
+    background-color: #494949;
+}
+
+td.tag{
+    background-color: yellow;
+}
+
+tr.zeile1{
+    background-color: lightgrey;
+}
+
+tr.zeile3{
+    background-color: lightgrey;
+}
+
+tr.zeile5{
+    background-color: lightgrey;
+}

@@ -1,0 +1,26 @@
+footer p {
+    color:grey;
+    font-size: small;
+}
+.contact{
+    color:black;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 200%;
+}
+.main strong{
+    color:red;
+    font-size: large;
+}
+
+header strong{
+    text-decoration: underline ;
+}
+em{
+    font-weight: bold;
+}
+del{
+    font-weight: bold;
+}
